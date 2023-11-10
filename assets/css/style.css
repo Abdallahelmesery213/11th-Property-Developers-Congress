@@ -560,8 +560,13 @@ footer form .btn{
         position: relative;
     }
     header .right-part .top-nav ul li{
-        width: 50%;
+        width: 70%;
         margin: 5px auto;
+    }
+    header .nav1 ul li{
+        width: 40%;
+        margin: 5px auto;
+        display: inline-block;
     }
     header .nav1 ul li:not(:last-child)::after{
         position: relative;
@@ -768,7 +773,7 @@ footer form .btn{
 }
 @media only screen and (max-width: 460px){
     header .nav1 ul li{
-        width: 35%;
+        font-size: 11px;
     }
 }
 @media only screen and (max-width: 418px){
@@ -779,7 +784,9 @@ footer form .btn{
 @media only screen and (max-width: 414px) {
     header .nav1 ul li {
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 14px;
+        display: block;
+        width: 100%;
     }
     .banner .banner-text h3 {
         margin-top: 40%;
